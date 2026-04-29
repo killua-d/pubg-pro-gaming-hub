@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBG Pro Gaming & Sensitivity Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🎮</span>
+                <span class="logo-text">PUBG Pro Hub</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+                <li><a href="#sensitivity" class="nav-link">حساسية اللعبة</a></li>
+                <li><a href="#calculator" class="nav-link">حاسبة الحساسية</a></li>
+                <li><a href="#settings" class="nav-link">الإعدادات</a></li>
+                <li><a href="#contact" class="nav-link">اتصل بنا</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>مرحبًا بك في PUBG Pro Gaming Hub</h1>
+            <p>أفضل مصدر لإعدادات الحساسية الاحترافية وتحسين أدائك في ببجي</p>
+            <button class="cta-btn" onclick="document.getElementById('sensitivity').scrollIntoView({behavior: 'smooth'})">
+                اكتشف الآن
+            </button>
+        </div>
+        <div class="hero-image">
+            <div class="game-icon">🎯</div>
+        </div>
+    </section>
+
+    <!-- Sensitivity Settings Section -->
+    <section id="sensitivity" class="sensitivity-section">
+        <div class="container">
+            <h2>أفضل إعدادات الحساسية حسب الفريمات</h2>
+            <p class="section-subtitle">اختر جهازك للحصول على أفضل إعدادات الحساسية المخصصة</p>
+            
+            <div class="fps-grid">
+                <!-- 40 FPS Card -->
+                <div class="fps-card">
+                    <div class="fps-header">
+                        <h3>أجهزة 40 فريم</h3>
+                        <span class="fps-badge">40 FPS</span>
+                    </div>
+                    <div class="fps-content">
+                        <p class="device-type">الأجهزة الضعيفة والقديمة</p>
+                        <div class="settings-list">
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الكاميرا:</span>
+                                <span class="setting-value">95-105</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الرؤية:</span>
+                                <span class="setting-value">85-95</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 2x:</span>
+                                <span class="setting-value">45-55</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 4x:</span>
+                                <span class="setting-value">25-35</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 6x:</span>
+                                <span class="setting-value">15-20</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 8x:</span>
+                                <span class="setting-value">10-15</span>
+                            </div>
+                        </div>
+                        <div class="tips">
+                            <p><strong>نصيحة:</strong> استخدم حساسية أعلى قليلاً لتعويض الفريمات المنخفضة</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 60 FPS Card -->
+                <div class="fps-card">
+                    <div class="fps-header">
+                        <h3>أجهزة 60 فريم</h3>
+                        <span class="fps-badge">60 FPS</span>
+                    </div>
+                    <div class="fps-content">
+                        <p class="device-type">الأجهزة المتوسطة</p>
+                        <div class="settings-list">
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الكاميرا:</span>
+                                <span class="setting-value">85-95</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الرؤية:</span>
+                                <span class="setting-value">75-85</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 2x:</span>
+                                <span class="setting-value">40-50</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 4x:</span>
+                                <span class="setting-value">20-30</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 6x:</span>
+                                <span class="setting-value">12-18</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 8x:</span>
+                                <span class="setting-value">8-12</span>
+                            </div>
+                        </div>
+                        <div class="tips">
+                            <p><strong>نصيحة:</strong> هذه الإعدادات متوازنة وموصى بها للاعبين المتوسطين</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 90 FPS Card -->
+                <div class="fps-card">
+                    <div class="fps-header">
+                        <h3>أجهزة 90 فريم</h3>
+                        <span class="fps-badge">90 FPS</span>
+                    </div>
+                    <div class="fps-content">
+                        <p class="device-type">الأجهزة الجيدة</p>
+                        <div class="settings-list">
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الكاميرا:</span>
+                                <span class="setting-value">75-85</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الرؤية:</span>
+                                <span class="setting-value">65-75</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 2x:</span>
+                                <span class="setting-value">35-45</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 4x:</span>
+                                <span class="setting-value">18-25</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 6x:</span>
+                                <span class="setting-value">10-15</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 8x:</span>
+                                <span class="setting-value">6-10</span>
+                            </div>
+                        </div>
+                        <div class="tips">
+                            <p><strong>نصيحة:</strong> استمتع بأداء سلس مع استقرار أفضل في التصويب</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 120 FPS Card -->
+                <div class="fps-card featured">
+                    <div class="fps-header">
+                        <h3>أجهزة 120 فريم</h3>
+                        <span class="fps-badge premium">120 FPS</span>
+                    </div>
+                    <div class="fps-content">
+                        <p class="device-type">الأجهزة الاحترافية</p>
+                        <div class="settings-list">
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الكاميرا:</span>
+                                <span class="setting-value">65-75</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الرؤية:</span>
+                                <span class="setting-value">55-65</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 2x:</span>
+                                <span class="setting-value">30-40</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 4x:</span>
+                                <span class="setting-value">15-22</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 6x:</span>
+                                <span class="setting-value">8-12</span>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">حساسية الزوم 8x:</span>
+                                <span class="setting-value">4-8</span>
+                            </div>
+                        </div>
+                        <div class="tips">
+                            <p><strong>نصيحة:</strong> أفضل الإعدادات للاعبين الاحترافيين والمسابقات</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sensitivity Calculator Section -->
+    <section id="calculator" class="calculator-section">
+        <div class="container">
+            <h2>حاسبة الحساسية المتقدمة</h2>
+            <p class="section-subtitle">احسب الحساسية المثالية بناءً على إعدادات جهازك</p>
+            
+            <div class="calculator-container">
+                <div class="calculator-card">
+                    <h3>معلومات جهازك</h3>
+                    
+                    <div class="form-group">
+                        <label for="deviceType">نوع الجهاز:</label>
+                        <select id="deviceType" onchange="updateCalculator()">
+                            <option value="">اختر نوع الجهاز</option>
+                            <option value="40">أجهزة 40 فريم (ضعيفة)</option>
+                            <option value="60">أجهزة 60 فريم (متوسطة)</option>
+                            <option value="90">أجهزة 90 فريم (جيدة)</option>
+                            <option value="120">أجهزة 120 فريم (احترافية)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="playstyle">أسلوب اللعب:</label>
+                        <select id="playstyle" onchange="updateCalculator()">
+                            <option value="">اختر أسلوب اللعب</option>
+                            <option value="aggressive">عدواني (حساسية عالية)</option>
+                            <option value="balanced">متوازن</option>
+                            <option value="tactical">تكتيكي (حساسية منخفضة)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="experience">مستوى الخبرة:</label>
+                        <select id="experience" onchange="updateCalculator()">
+                            <option value="">اختر مستوى الخبرة</option>
+                            <option value="beginner">مبتدئ</option>
+                            <option value="intermediate">متوسط</option>
+                            <option value="advanced">متقدم</option>
+                            <option value="pro">احترافي</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="userId">معرف المستخدم (اختياري):</label>
+                        <input type="text" id="userId" placeholder="أدخل معرفك لحفظ الإعدادات">
+                    </div>
+
+                    <button class="calculate-btn" onclick="calculateSensitivity()">احسب الحساسية</button>
+                </div>
+
+                <div class="calculator-result" id="result" style="display: none;">
+                    <h3>الإعدادات الموصى بها</h3>
+                    <div class="result-content">
+                        <div class="result-item">
+                            <span class="result-label">حساسية الكاميرا:</span>
+                            <span class="result-value" id="cameraSensitivity">-</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">حساسية الرؤية:</span>
+                            <span class="result-value" id="viewSensitivity">-</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">حساسية الزوم 2x:</span>
+                            <span class="result-value" id="zoom2xSensitivity">-</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">حساسية الزوم 4x:</span>
+                            <span class="result-value" id="zoom4xSensitivity">-</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">حساسية الزوم 6x:</span>
+                            <span class="result-value" id="zoom6xSensitivity">-</span>
+                        </div>
+                        <div class="result-item">
+                            <span class="result-label">حساسية الزوم 8x:</span>
+                            <span class="result-value" id="zoom8xSensitivity">-</span>
+                        </div>
+                    </div>
+                    <div class="result-tips">
+                        <h4>نصائح مهمة:</h4>
+                        <ul id="tipsList">
+                            <li>جرب الإعدادات وعدّلها حسب تفضيلك الشخصي</li>
+                            <li>تدرب على الإعدادات الجديدة لمدة ساعات قبل الحكم عليها</li>
+                            <li>استخدم نفس الإعدادات في جميع أنماط اللعب</li>
+                        </ul>
+                    </div>
+                    <button class="save-btn" onclick="saveSettings()">حفظ الإعدادات</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips & Tricks Section -->
+    <section id="settings" class="tips-section">
+        <div class="container">
+            <h2>نصائح وحيل لتحسين الأداء</h2>
+            
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <div class="tip-icon">⚙️</div>
+                    <h3>تحسين الإعدادات الأساسية</h3>
+                    <p>تأكد من تفعيل الرسومات المنخفضة لتحسين الأداء، وقلل جودة الظلال والانعكاسات للحصول على فريمات أعلى.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon">🎯</div>
+                    <h3>تحسين دقة التصويب</h3>
+                    <p>استخدم حساسية منخفضة للزوم البعيد، وتدرب على التصويب في الأماكن المفتوحة قبل الدخول للمعارك.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon">🔊</div>
+                    <h3>استخدم الصوت</h3>
+                    <p>فعّل الصوت المحيطي لسماع خطوات الأعداء والأصوات المهمة الأخرى بشكل واضح.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon">🎮</div>
+                    <h3>اختر الأسلحة المناسبة</h3>
+                    <p>تعلم استخدام الأسلحة المختلفة وتدرب على الرش والتصويب الدقيق في أوقات مختلفة.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon">📱</div>
+                    <h3>تحسين الأداء على الهاتف</h3>
+                    <p>أغلق التطبيقات الأخرى، وتأكد من أن الهاتف بارد قبل اللعب، وحافظ على البطارية كاملة.</p>
+                </div>
+
+                <div class="tip-card">
+                    <div class="tip-icon">🏆</div>
+                    <h3>التدريب المستمر</h3>
+                    <p>لعب في أوضاع التدريب، وشارك في المباريات الودية، وتحسن من مهاراتك بشكل تدريجي.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>تواصل معنا</h2>
+            <p class="section-subtitle">هل لديك أسئلة أو اقتراحات؟ تواصل معنا الآن</p>
+            
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <input type="text" id="contactName" placeholder="اسمك الكامل" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contactEmail" placeholder="بريدك الإلكتروني" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contactMessage" placeholder="رسالتك" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">إرسال الرسالة</button>
+                    </form>
+                    <div id="submitMessage" class="submit-message" style="display: none;"></div>
+                </div>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <h4>البريد الإلكتروني</h4>
+                        <p>info@pubgprohub.com</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <h4>وسائل التواصل</h4>
+                        <p>تابعنا على جميع منصات التواصل الاجتماعي</p>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">⏰</div>
+                        <h4>ساعات العمل</h4>
+                        <p>متاح 24/7 للدعم والاستفسارات</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 PUBG Pro Gaming Hub. جميع الحقوق محفوظة.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">YouTube</a>
+                <a href="#" class="social-link">Discord</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
